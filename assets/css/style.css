@@ -15,7 +15,11 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .logo {
   width: 45px;
   height: 45px;
@@ -38,12 +42,18 @@ header h2 {
 /* ===== Chatbox ===== */
 .chat-header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 8px;
-  justify-content: center;
-  margin-bottom: 10px;
+  background: #004d40;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Poppins', sans-serif;
 }
-
+.chat-header h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
 .chat-container {
   width: 100%;
   max-width: 500px;
@@ -191,4 +201,16 @@ header h2 {
   opacity: 1;
   transform: translateY(0);
 }
+.admin-btn {
+  color: #fff;
+  background: #00796b;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
 
+.admin-btn:hover {
+  background: #009688;
+}
