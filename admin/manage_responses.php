@@ -134,7 +134,8 @@ $conn->close();
     <?php endwhile; ?>
   </table>
 
-  <a href="logout.php">Logout</a>
+ <a href="logout.php">Logout</a>
+
 </div>
 
 <script>
